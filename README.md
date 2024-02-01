@@ -44,8 +44,7 @@
 
 |    Mismach    | Second Header |
 | ------------- | ------------- |
-|  Granularity  | Sometimes you will have an object model which has more classes than the number of corresponding tables in the dabase. 
-| Lets take an exmaple of **Person details**, we could broke down person details into two classes one is **Person** and another is **Address** for code reusability and code maintainability purpose But assume that to store Person details in database there is only **one table called Person**.  |
+|  Granularity  | Sometimes you will have an object model which has more classes than the number of corresponding tables in the dabase. Lets take an exmaple of **Person details**, we could broke down person details into two classes one is **Person** and another is **Address** for code reusability and code maintainability purpose But assume that to store Person details in database there is only **one table called Person**.  |
 |  Inheritance  | RDBMSs do not define anything similar to Inheritance which is a natural paradigm in object-oriented programmiong languages.  |
 |    Identity   | A RDBMS defines exactly one notion of 'sameness': the **primary key**. Java, however, defines both **object identity** (a==b) and **object equality** (a.equals(b)).  |
 |  Associations |   |
