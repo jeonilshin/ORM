@@ -10,3 +10,9 @@ Object-Relational Mapping 즉, 객체와 관계형 데이터베이스 매핑의 
     - 메모리 상의 데이터를 파일 시스템, 관계형 테이터베이스 혹은 객체 데이터베이스 등을 활용하여 영구적으로 저장하여 영속성 부여한다.
     
     ![Alt text](image.png)
+
+    - 데이터를 데이터베이스에 저장하는 3가지 방법
+        - 1) JDBC(Java에서 사용)
+        - 2) Spring JDBC (e.g. JDBCTemplate)
+        - 3) Persistence Framework (e.g. Hibernate, Mybatis 등)
+    
