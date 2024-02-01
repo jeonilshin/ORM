@@ -1,7 +1,8 @@
 # [DB] ORM
 
 ## ORM(Object Relational Mapping)
-Object-Relational Mapping 즉, 객체와 관계형 데이터베이스 매핑의 줄임말입니다. 우리가 OOP(Object Oriented Programming)에서 쓰는 객체라는 개념을 구현한 클래스와RDB(Relational DataBase)에서 쓰이는 데이터인 테이블을 매핑(연결)하는 것을 의미합니다.
+#### Object Relational Mapping, 객체-관계 매핑
+
 
 ### 영속성(Persistence)
 - 데이터를 생성한 프로그램이 종료되더라도 사라지지 않는 데이터의 특성을 말한다.
@@ -15,4 +16,15 @@ Object-Relational Mapping 즉, 객체와 관계형 데이터베이스 매핑의 
         - 1) JDBC(Java에서 사용)
         - 2) Spring JDBC (e.g. JDBCTemplate)
         - 3) Persistence Framework (e.g. Hibernate, Mybatis 등)
+
+- Persistence Layer
+    - 프로그램의 아키텍처에서, 데이터에 영속성을 부여해주는 계층을 말한다.
+    - JDBC를 이용하여 적접 구현할 수 있지만 Persistence framework를 이용한 개발이 많이 이루어진다.
+
+- Persistence Framework
+    - JDBC 프로그래밍의 복잡함이나 번거로움 없이 간단한 작업만으로 데이터베이스와 연동되는 시스템을 빠르게 개발할 수 있으며 안정적인 구동을 보장한다.
+    - Persistence Framework는 [SQL Mapper와 ORM]으로 나눌 수 있다. 
+        - e.g. JPA, Hibernate, Mybatis 등
+
+[SQL Mapper와 ORM]: https://gmlwjd9405.github.io/2018/12/25/difference-jdbc-jpa-mybatis.html
     
